@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Dashboard</title>
+    <style>
+        body {margin:0; font-family: Arial; display:flex; height:100vh;}
+        aside {width:250px; background:#222; color:white; padding:20px;}
+        main {flex:1; padding:20px; overflow:auto;}
+        .cards {display:grid; grid-template-columns: repeat(auto-fill, minmax(220px,1fr)); gap:20px;}
+        .card {background:white; border-radius:8px; padding:20px; box-shadow:0 4px 10px rgba(0,0,0,0.1);}
+    </style>
+</head>
+<body>
+    <aside>
+        <h2>Dashboard</h2>
+        <ul><li>Statistika</li><li>Foydalanuvchilar</li><li>Buyurtmalar</li></ul>
+    </aside>
+    <main>
+        <h1>Salom, Admin!</h1>
+        <div class="cards">
+            <div class="card"><h3>Sotuvlar</h3><p>$24,580</p></div>
+            <div class="card"><h3>Foydalanuvchilar</h3><p>1,245</p></div>
+            <div class="card"><h3>Buyurtmalar</h3><p>87</p></div>
+        </div>
+    </main>
+</body>
+</html>
